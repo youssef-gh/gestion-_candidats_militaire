@@ -1,0 +1,12 @@
+void view_file_Groupe2(FILE*f,char*name);
+void create_Candidat_file(FILE*f,char*name);
+void create_Groupe_file(FILE*f,char*name);
+void add_Candidat(FILE*f,char*name);
+void add_Groupe(FILE*f,char*name);
+void view_file_Candidat(FILE*f,char*name);
+void view_file_Groupe(FILE*f,char*name);
+int seek_Candidat(FILE*f,char*name,char*seek1name,char*seek2name);
+void seek_Groupe(FILE*f,char*name);
+void deleting_Candidat(FILE*f,char*name);
+void modify_Candidat(FILE*f,char*name);
+void alphab_display(FILE*f,char*name);
